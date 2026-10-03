@@ -19,11 +19,11 @@ __pycache__/
 .Python
 *.egg-info/
 dist/
-build/
 
-# 测试数据
+# 测试数据（保留目录结构，忽略大图片）
 test_data/*.png
 test_data/*.jpg
+!test_data/.gitkeep
 
 # 临时文件
 *.swp
