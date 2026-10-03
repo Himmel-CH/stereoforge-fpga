@@ -45,7 +45,7 @@ fpga_project/
 
 ## 团队分工
 
-- **队长（你）**：FPGA硬件 → `hardware/`
+- **队长**：FPGA硬件 → `hardware/`
 - **成员B**：算法开发 → `software/python/`
 - **成员C**：可视化 → `software/python/`
 
