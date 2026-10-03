@@ -1,0 +1,43 @@
+
+*** Running vivado
+    with args -log design_1_axi_mem_intercon_imp_auto_pc_1.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_axi_mem_intercon_imp_auto_pc_1.tcl
+
+
+INFO: [Common 17-3922] A valid Vivado Design Suite BASIC license has been detected. Your current license is active and will expire on 27-sep-2027.
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Sat Oct  3 13:03:01 2026
+# Process ID         : 16716
+# Current directory  : C:/Users/eziochen/Desktop/fpga_project/fpga/image/image.runs/design_1_axi_mem_intercon_imp_auto_pc_1_synth_1
+# Command line       : vivado.exe -log design_1_axi_mem_intercon_imp_auto_pc_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_axi_mem_intercon_imp_auto_pc_1.tcl
+# Log file           : C:/Users/eziochen/Desktop/fpga_project/fpga/image/image.runs/design_1_axi_mem_intercon_imp_auto_pc_1_synth_1/design_1_axi_mem_intercon_imp_auto_pc_1.vds
+# Journal file       : C:/Users/eziochen/Desktop/fpga_project/fpga/image/image.runs/design_1_axi_mem_intercon_imp_auto_pc_1_synth_1\vivado.jou
+# Running On         : MSI
+# Platform           : Windows 11
+# Operating System   : 26200
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i9-13980HX
+# CPU Frequency      : 2419 MHz
+# CPU Physical cores : 24
+# CPU Logical cores  : 32
+# Host memory        : 34117 MB
+# Swap memory        : 9663 MB
+# Total Virtual      : 43781 MB
+# Available Virtual  : 16365 MB
+#-----------------------------------------------------------
+
+****** Vivado v2026.1 (64-bit)
+  **** SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+  **** IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+  **** SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+  **** Start of session at: Sat Oct  3 13:03:01 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+ERROR: [Common 17-1257] Failed to create directory 'C'.
+source design_1_axi_mem_intercon_imp_auto_pc_1.tcl -notrace
+create_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 604.820 ; gain = 269.270
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP design_1_axi_mem_intercon_imp_auto_pc_1, cache-ID = 18bc4a89bbde3905.
+INFO: [Common 17-206] Exiting Vivado at Sat Oct  3 13:03:16 2026...

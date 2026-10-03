@@ -1,0 +1,42 @@
+# .gitignore - FPGA项目
+
+# Vivado生成文件
+fpga/*/project_*.cache/
+fpga/*/project_*.hw/
+fpga/*/project_*.ip_user_files/
+fpga/*/project_*.runs/
+fpga/*/project_*.sim/
+fpga/*/*.jou
+fpga/*/*.log
+fpga/*/*.str
+fpga/*/NA/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# 测试数据
+test_data/*.png
+test_data/*.jpg
+
+# 临时文件
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# 保留build目录下的.bit和.hwh
+!build/*.bit
+!build/*.hwh
+
+# 编辑器
+.vscode/
+.idea/
+*.code-workspace
